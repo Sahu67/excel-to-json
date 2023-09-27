@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 550px;
+  text-align: center;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: 2px 3px 25px rgba(0, 0, 0, 0.37);
+}
+
+h1 {
+  line-height: 1.2;
+}
+
+input[type="file"] {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+button {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: violet;
+  color: #fff;
+  font-weight: 600;
+}
+button:is(:hover, :focus) {
+  background: rgb(155, 68, 155);
+}
+
+textarea {
+  display: none;
+  margin: 40px 0px 0px;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 300px;
+  max-height: 800px;
+  padding: 10px;
+  height: 289px;
+  border: ;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+  scrollbar-width: none;
+}
+
+textarea::-webkit-scrollbar {
+	width: 0;
+}

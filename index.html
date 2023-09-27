@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Excel into JSON</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=64&id=Ru0tNwlOUfBH&format=png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- xlsx.min.js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.5/xlsx.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Upload an Excel File to convert into JSON</h1>
+        <input type="file" name="file" id="upload-file" />
+        <button id="convert-btn" type="button">Convert</button>
+        <textarea id="result-area" placeholder="YOUR JSON RESULT HERE"></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
